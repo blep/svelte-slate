@@ -48,7 +48,7 @@
 </script>
 
 <script lang="ts">
-	import { portal } from 'svelte-portal/src/Portal.svelte';
+	import { portal } from 'svelte-portal';
 
 	export let container: HTMLElement | undefined = undefined;
 	export let ref: HTMLElement | undefined = undefined;

@@ -1,7 +1,7 @@
 <svelte:options immutable />
 
 <script lang="ts">
-	import { portal } from 'svelte-portal/src/Portal.svelte';
+	import { portal } from 'svelte-portal';
 
 	export let open = false;
 	export let onClose: () => void = () => undefined;
